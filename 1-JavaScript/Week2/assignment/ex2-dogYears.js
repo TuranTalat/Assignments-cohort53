@@ -15,8 +15,9 @@ calculate it!
    ages.
 -----------------------------------------------------------------------------*/
 
-export function calculateDogAge(/* TODO parameter(s) go here */) {
-  // TODO complete this function
+export function calculateDogAge(age) {
+  const dogYears =age *7;
+  return `your doggie is ${dogYears} old.`
 }
 
 function main() {
